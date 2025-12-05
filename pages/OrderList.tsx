@@ -25,7 +25,7 @@ export const OrderList: React.FC<OrderListProps> = ({ orders, onNewOrder, onView
   });
 
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col h-full">
+    <div className="bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col h-full w-full">
       {/* Filters Header */}
       <div className="p-5 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="flex-1 max-w-lg relative">

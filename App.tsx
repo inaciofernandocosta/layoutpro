@@ -149,8 +149,8 @@ const App: React.FC = () => {
         </header>
 
         {/* Scrollable Content */}
-        <main className="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8">
-          <div className="max-w-7xl mx-auto h-full">
+        <main className="flex-1 overflow-y-auto py-4 md:py-6 lg:py-8 px-2 md:px-3 lg:px-4">
+          <div className="h-full">
             {currentView === 'dashboard' && <Dashboard orders={orders} />}
             
             {currentView === 'orders' && (
